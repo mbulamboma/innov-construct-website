@@ -18,7 +18,7 @@ export function Team() {
       title: t("Ingénieurs civils", "Civil engineers"),
       speciality: t("Hydraulique & Constructions hydrauliques", "Hydraulics & hydraulic constructions"),
       color: "from-cyan-500 to-cyan-600",
-      photo: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80",
+      photo: "/tof-2.jpeg",
     },
     {
       icon: Zap,
@@ -32,14 +32,14 @@ export function Team() {
       title: t("Experts routiers", "Road experts"),
       speciality: t("Conception & Dimensionnement routier", "Road design & sizing"),
       color: "from-emerald-500 to-teal-600",
-      photo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&q=80",
+      photo: "/tof-3.jpeg",
     },
     {
       icon: Ruler,
       title: t("Topographes", "Surveyors"),
       speciality: t("Relevés & Implantations", "Surveys & layouts"),
       color: "from-purple-500 to-purple-600",
-      photo: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=700&q=80",
+      photo: "/tof-1.jpeg",
     },
     {
       icon: HardHat,
