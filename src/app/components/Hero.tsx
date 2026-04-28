@@ -170,7 +170,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-8 leading-[1.1]"
+            className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-8 leading-[1.1]"
           >
             <span className="bg-gradient-to-br from-white via-blue-50 to-blue-100 bg-clip-text text-transparent">
               {t('Votre partenaire technique', 'Your technical partner')}
@@ -189,7 +189,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl md:text-2xl text-blue-100/90 mb-4 leading-relaxed font-light"
+            className="text-lg md:text-xl text-blue-100/90 mb-4 leading-relaxed font-light"
           >
             <span className="text-cyan-300 font-semibold">{t('Innovation', 'Innovation')}</span> · <span className="text-blue-200 font-semibold">{t('Expertise', 'Expertise')}</span> · <span className="text-purple-300 font-semibold">{t('Qualité', 'Quality')}</span> · <span className="text-cyan-300 font-semibold">{t('Performance', 'Performance')}</span>
           </motion.p>
@@ -233,7 +233,7 @@ export function Hero() {
             {[
               { icon: Building2, value: 15, suffix: "+", label: t("Experts qualifiés", "Qualified experts"), color: "from-blue-500 to-cyan-500" },
               { icon: Shield, value: 100, suffix: "%", label: t("Conformité HSE", "HSE compliance"), color: "from-emerald-500 to-teal-500" },
-              { icon: Clock, staticValue: "24h/24", label: t("Support disponible", "Support available"), color: "from-purple-500 to-pink-500" },
+              { icon: Clock, staticValue: t("Lun–Ven", "Mon–Fri"), label: t("8h00 – 17h00", "8:00 – 17:00"), color: "from-purple-500 to-pink-500" },
               { icon: HardHat, value: 3, suffix: "+", label: t("Années d'expérience", "Years of experience"), color: "from-orange-500 to-amber-500" }
             ].map((stat, index) => (
               <motion.div

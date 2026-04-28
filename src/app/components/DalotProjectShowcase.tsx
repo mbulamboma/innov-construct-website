@@ -21,11 +21,11 @@ export function DalotProjectShowcase() {
     { src: d03, alt: t('Exécution des murs de soutènement', 'Retaining walls execution') },
     { src: d04, alt: t('Vue d ensemble du chantier', 'Overall site view') },
     { src: d05, alt: t('Vue frontale du dalot en cours', 'Front view of culvert under construction') },
-    { src: d06, alt: t('Ouvrage finalisé avec accès routier', 'Completed structure with road access') },
     { src: d07, alt: t('Détails des armatures avant béton', 'Reinforcement details before concrete casting') },
+    { src: d06, alt: t('Ouvrage finalisé avec accès routier', 'Completed structure with road access') },
     { src: d08, alt: t('Ouvrage et remblaiement latéral', 'Structure and side backfilling') },
-    { src: d09, alt: t('Armatures de semelle – vue de dessus', 'Foundation rebar – top view') },
-    { src: d10, alt: t('État intermédiaire des travaux', 'Intermediate stage of works') },
+    { src: d09, alt: t('Ouvrage après coulage de béton', 'Structure after concrete casting') },
+    { src: d10, alt: t('Détails des armatures', 'Reinforcement details') },
   ];
 
   return (

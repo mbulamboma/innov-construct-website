@@ -67,7 +67,7 @@ export function Resources() {
               </div>
               <h3 className="text-3xl font-bold text-white">{t('Logiciels professionnels', 'Professional software')}</h3>
             </div>
-            <div className="relative grid sm:grid-cols-2 gap-4">
+            <div className="relative grid grid-cols-2 gap-4">
               {software.map((soft, index) => (
                 <motion.div
                   key={index}

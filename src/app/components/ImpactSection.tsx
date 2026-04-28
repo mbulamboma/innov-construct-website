@@ -68,7 +68,7 @@ export function ImpactSection() {
           </motion.p>
         </motion.div>
 
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {[
             { icon: Building2, value: 15, suffix: '+', label: t('Projets réalisés', 'Projects delivered'), color: 'from-blue-500 to-cyan-500' },
             { icon: Users, value: 15, suffix: '+', label: t('Experts dédiés', 'Dedicated experts'), color: 'from-emerald-500 to-teal-500' },

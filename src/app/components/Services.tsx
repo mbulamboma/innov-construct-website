@@ -1,6 +1,7 @@
 import { MapPin, ClipboardCheck, FileText, HardHat, Zap, BarChart3, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useT } from '../i18n';
+import suiviControleImg from '../../imports/illust.jpeg';
 
 export function Services() {
   const t = useT();
@@ -21,7 +22,7 @@ export function Services() {
       icon: ClipboardCheck,
       title: t("Suivi et contrôle", "Monitoring & control"),
       color: "from-emerald-500 to-emerald-600",
-      photo: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=700&q=80",
+      photo: suiviControleImg,
       features: [
         t("Contrôle qualité des travaux", "Works quality control"),
         t("Suivi de planning et délais", "Schedule and deadline tracking"),
@@ -163,7 +164,7 @@ export function Services() {
               {[
                 { value: "15+", label: t("Experts qualifiés", "Qualified experts"), gradient: "from-blue-500 to-cyan-500" },
                 { value: "100%", label: t("Satisfaction client", "Client satisfaction"), gradient: "from-emerald-500 to-teal-500" },
-                { value: "24/7", label: t("Support disponible", "Support available"), gradient: "from-purple-500 to-pink-500" },
+                { value: "Lun-Ven", label: t("8h30 - 16h00", "Mon-Fri 8:30am - 4:00pm"), gradient: "from-purple-500 to-pink-500" },
                 { value: "3+", label: t("Années d'expérience", "Years of experience"), gradient: "from-orange-500 to-red-500" }
               ].map((stat, index) => (
                 <motion.div
@@ -173,7 +174,7 @@ export function Services() {
                 >
                   <div className={`absolute inset-0 bg-gradient-to-br ${stat.gradient} opacity-0 group-hover:opacity-20 transition-opacity duration-300`}></div>
                   <div className="relative">
-                    <p className="text-5xl font-bold mb-2 bg-gradient-to-br from-white to-blue-100 bg-clip-text text-transparent">{stat.value}</p>
+                    <p className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-br from-white to-blue-100 bg-clip-text text-transparent break-words">{stat.value}</p>
                     <p className="text-sm text-blue-200/80 leading-snug">{stat.label}</p>
                   </div>
                 </motion.div>

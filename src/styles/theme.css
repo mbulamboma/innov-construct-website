@@ -4,7 +4,7 @@
   --brand-blue-dark: #2f2f7f;
   --brand-blue-turquoise: #34c6eb;
   --brand-gray: #8f8f8f;
-  --font-size: 16px;
+  --font-size: 14px;
   --background: #ffffff;
   --foreground: #2f2f7f;
   --card: #ffffff;
@@ -130,6 +130,12 @@
   html {
     scroll-behavior: smooth;
     font-size: var(--font-size);
+  }
+
+  @media (max-width: 768px) {
+    html {
+      font-size: 10px;
+    }
   }
 
   body {
